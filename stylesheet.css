@@ -1,0 +1,49 @@
+
+
+/* Kommentera all kod innan commit */
+
+body {
+    background-image: url(/images/background.jpg);  
+}
+
+p, h1, input, .completed, li{
+    word-spacing: 0.16em;   
+    line-height: 2em;       
+    letter-spacing: 0.12em; 
+}
+
+.mainDiv {
+    background-color: rgb(165, 212, 228);
+    opacity: 85%;
+    text-align: center;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid;
+    border-color: antiquewhite;
+
+    width: 50%;
+    margin: auto;
+    box-shadow: 10px 10px 8px 0px #f2dcc9;
+    letter-spacing: 0.12em; 
+    margin-top: 20%;
+}
+
+li {
+    text-align: left;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: blue
+  }
+
+input {
+    width: 80%;
+}
+  
+
+
+
+
