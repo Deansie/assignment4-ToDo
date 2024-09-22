@@ -1,16 +1,19 @@
 
-
-/* Kommentera all kod innan commit */
+/* Hänvisning till sidans statiska bakgrundsbild */
 
 body {
     background-image: url(/images/background.jpg);  
 }
+
+/* Lite finjustering av textvillkor för att underlätta för ögat att läsa texten */
 
 p, h1, input, .completed, li{
     word-spacing: 0.16em;   
     line-height: 2em;       
     letter-spacing: 0.12em; 
 }
+
+/* Villkor för mainDiv som bland annat gör sidan responsiv */
 
 .mainDiv {
     background-color: rgb(165, 212, 228);
@@ -30,14 +33,20 @@ p, h1, input, .completed, li{
     margin-top: 20%;
 }
 
+/* För att avvika från centreringen av texten som blir av villkoren i .mainDiv, ger ett lite stabilare intryck */
+
 li {
     text-align: left;
 }
+
+/* Ger blå överstruken text på uppgifter på listan som blivit markerade som klara */
 
 .completed {
     text-decoration: line-through;
     color: blue
   }
+
+/* Ökar bredden på inputfältet */ 
 
 input {
     width: 80%;
