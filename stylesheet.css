@@ -30,7 +30,7 @@ p, h1, input, .completed, li{
     margin: auto;
     box-shadow: 10px 10px 8px 0px #f2dcc9;
     letter-spacing: 0.12em; 
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 /* För att avvika från centreringen av texten som blir av villkoren i .mainDiv, ger ett lite stabilare intryck */
